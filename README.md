@@ -15,18 +15,18 @@ Welcome to the **LOLspeak Translator**! This project is a simple bash script tha
 To install the LOLspeak Translator, you can use the following commands:
 
 ```bash
-wget https://github.com/linuxfanboy4/lolspeak/raw/4a5a039efe0539877af364ebaae28052ad44e1bf/lolspeak.deb
-sudo apt install ./lolspeak.deb
+wget https://raw.githubusercontent.com/linuxfanboy4/lolspeak/refs/heads/main/lolspeak.sh
+chmod +x lolspeak.sh
 ```
 
-This will download and install the LOLspeak Translator package on your system.
+This will download the file and install the LOLspeak Translator on your system.
 
 ## Usage
 
 Once installed, you can use the `lolspeak` command to translate your sentences. The script takes a single argument, which is the sentence you want to translate.
 
 ```bash
-lolspeak "hello"
+./lolspeak.sh "hello"
 ```
 
 ### Example Usage
@@ -34,13 +34,13 @@ lolspeak "hello"
 Here are some examples of how to use the LOLspeak Translator:
 
 ```bash
-$ lolspeak "hello"
+$ ./lolspeak.sh "hello"
 nyan
 
-$ lolspeak "how are you"
+$ ./lolspeak.sh "how are you"
 hao er yu
 
-$ lolspeak "I love my friends and food"
+$ ./lolspeak.sh "I love my friends and food"
 I lurv my frendz an nomz
 ```
 
